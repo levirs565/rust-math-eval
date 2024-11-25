@@ -24,7 +24,7 @@ fn main() {
 
     let node = parser.parse_expression(false);
 
-    println!("{}", draw_string(&node, String::new()));
+    println!("{}", draw_string(&node));
 
     println!("Evaluated to: {}", evaluate(&node));
 }
